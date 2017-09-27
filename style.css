@@ -14,6 +14,31 @@ body {
   padding: 0;
 }
 
+.carousel-header-img {
+  height: 400px;
+  overflow: hidden;
+}
+
+.carousel-header-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 540px) {
+  .carousel-header-img {
+    height: auto;
+  }
+
+  .carousel-header-img img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+}
+
 .container .row .col-md-4,
 .container .row .col-sm-8 {
   margin-top: 50px;
