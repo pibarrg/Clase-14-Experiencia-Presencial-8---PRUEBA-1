@@ -6,8 +6,8 @@ body {
   border: 0;
 }
 
-.navbar-brand{
-  padding
+.navbar-brand img{
+  margin-top:-5px;
 }
 
 .totalcarousel {
@@ -15,7 +15,7 @@ body {
 }
 
 .container .row .col-md-4,
-.container .row .col-sm-9 {
+.container .row .col-sm-8 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -64,3 +64,15 @@ footer {
 }
 
 /* COMIENZA NOTICIAS */
+.noticias-header-img {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('images/noticias/voluntarias.jpg') no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+}
+
+.noticias-header-img h1 {
+  color: white;
+  padding-top: calc(200px - .5rem);
+  text-align: center;
+}
