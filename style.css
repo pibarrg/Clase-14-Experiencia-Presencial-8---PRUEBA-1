@@ -1,0 +1,61 @@
+body {
+  padding-top: 70px;
+}
+
+.no-border {
+  border: 0;
+}
+
+.totalcarousel {
+  padding: 0;
+}
+
+.container .row .col-md-4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.noticias {
+  margin-top: 30px;
+}
+
+.container .row .col-md-4 .thumbnail .caption h4.producto-h {
+  text-align: center;
+}
+
+.container .row .col-md-4 .thumbnail .caption p.producto-p {
+  text-align: justify;
+}
+
+div.col-md-4.col-sm-4.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #DCDCDC;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  padding: 10px;
+  font-size: 36px;
+}
+
+
+/* COMIENZA NOSOTROS */
+.about-header-img {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('images/nosotros/nosotros.jpg') no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+}
+
+.about-header-img h1 {
+  color: white;
+  padding-top: calc(200px - .5rem);
+  text-align: center;
+}
+
+/* COMIENZA NOTICIAS */
